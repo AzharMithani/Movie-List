@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:scaleType="fitXY"
+    android:id="@+id/movieicon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movietitle"
+       android:layout_margin="5dp"
+        android:layout_toRightOf="@id/movieicon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/movietitle"
+        android:id="@+id/movieyear"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movierating"
+android:layout_marginLeft="5dp"
+        android:layout_below="@+id/movietitle"
+        android:layout_toRightOf="@+id/movieicon"
+        android:layout_toEndOf="@+id/movieicon"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moviegenre"
+       android:layout_margin="5dp"
+        android:layout_below="@id/movierating"
+        android:layout_toRightOf="@id/movieicon"
+        />
+
+</RelativeLayout>
